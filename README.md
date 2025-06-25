@@ -46,7 +46,7 @@ I have chosen to duplicate the following layout from the Chess.com app:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src="https://i.imgur.com/rdBbPOH.gif" alt="Video Demo" width="300"/>
+<img src="https://i.imgur.com/2TDj9mx.gif" alt="Video Demo" width="300"/>
 
 GIF created with
 - [ScreenToGif](https://www.screentogif.com/)
