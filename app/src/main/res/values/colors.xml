@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Chess.com colors -->
+    <color name="background_color">#33302d</color>
+    <color name="login_box_color">#433f3c</color>
+    <color name="symbols_color">#9c9c9c</color>
+    <color name="Login_with_box_color">#464342</color>
+    <color name="forgot_password_text_color">#c3c4c1</color>
+    <color name="chess.com_green">#8cb15b</color>
+</resources>

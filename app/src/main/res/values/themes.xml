@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.ChesscomPhoneLoginPage" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Background -->
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="colorSurface">@color/login_box_color</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/forgot_password_text_color</item>
+
+        <!-- Button styles -->
+        <item name="materialButtonStyle">@style/Widget.ChesscomPhoneLoginPage.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.ChesscomPhoneLoginPage.OutlinedButton</item>
+
+        <!-- CardView style -->
+        <item name="materialCardViewStyle">@style/Widget.ChesscomPhoneLoginPage.CardView</item>
+
+        <!-- TextInputLayout style -->
+        <item name="textInputStyle">@style/Widget.ChesscomPhoneLoginPage.TextInputLayout</item>
+
+        <!-- Color system -->
+        <item name="colorPrimary">@color/chess.com_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/chess.com_green</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+        <item name="colorSurfaceVariant">@color/login_box_color</item>
+    </style>
+
+    <!-- TextInputLayout Style -->
+    <style name="Widget.ChesscomPhoneLoginPage.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/symbols_color</item>
+        <item name="boxBackgroundColor">@color/login_box_color</item>
+        <item name="hintTextColor">@color/symbols_color</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">1.5dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.SmallComponent</item>
+        <item name="startIconTint">@color/symbols_color</item>
+        <item name="endIconTint">@color/symbols_color</item>
+    </style>
+
+    <!-- Filled Button Style -->
+    <style name="Widget.ChesscomPhoneLoginPage.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/chess.com_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Outlined Button Style (for social logins) -->
+    <style name="Widget.ChesscomPhoneLoginPage.OutlinedButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="backgroundTint">@color/Login_with_box_color</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="strokeColor">@color/symbols_color</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- CardView Style -->
+    <style name="Widget.ChesscomPhoneLoginPage.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/Login_with_box_color</item>
+        <item name="strokeColor">@color/symbols_color</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.SmallComponent</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <!-- Shape Appearance -->
+    <style name="ShapeAppearance.Material3.SmallComponent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+</resources>
