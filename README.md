@@ -39,14 +39,14 @@ The following EXTRA features are implemented:
 
 I have chosen to duplicate the following layout from the Chess.com app:
 
-![Chosen Screenshot](https://i.imgur.com/QaARj9i.png)
+<img src="https://i.imgur.com/QaARj9i.png" alt="Chosen Screenshot" width="300"/>
 
 
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-![Video Demo](https://i.imgur.com/rdBbPOH.gif)
+<img src="https://i.imgur.com/rdBbPOH.gif" alt="Video Demo" width="300"/>
 
 GIF created with
 - [ScreenToGif](https://www.screentogif.com/)
