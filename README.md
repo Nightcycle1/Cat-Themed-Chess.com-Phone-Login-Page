@@ -37,15 +37,16 @@ The following EXTRA features are implemented:
 
 ## Chosen Screenshot
 
-I have chosen to duplicate the following layout from the **App Name Here** app:
+I have chosen to duplicate the following layout from the Chess.com app:
 
-<img src='[http://example.com/link/to/your/image.png](https://imgur.com/QaARj9i)' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
+![Chosen Screenshot](https://i.imgur.com/QaARj9i.png)
+
 
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file](https://imgur.com/a/rdBbPOH.gif' title='Video Demo' width='' alt='Video Demo' />
+![Video Demo](https://i.imgur.com/rdBbPOH.gif)
 
 GIF created with
 - [ScreenToGif](https://www.screentogif.com/)
